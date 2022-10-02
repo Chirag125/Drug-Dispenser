@@ -14,6 +14,7 @@ import time
 cur_time=time.time()
 file1=open("dosage.txt","w")
 path = 'images'
+print("hello")
 images = []
 classNames = []
 myList = os.listdir(path)  # to grab the list of images from the folder(in the form of name.jpg)
